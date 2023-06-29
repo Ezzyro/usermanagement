@@ -11,7 +11,7 @@ app.get("/api/get",(req,res) =>{
             console.log(err);
         }
         else{
-            console.log(data);
+            console.log(data+"Develop2 branch");
             
             res.json(JSON.parse(data));
         }
